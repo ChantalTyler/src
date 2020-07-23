@@ -1,0 +1,48 @@
+.structure {
+  max-width: 40%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-image: url("sun.JPEG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.location-info {
+  font-size: 24px;
+  display: inline;
+}
+.time {
+  display: flex;
+  float: right;
+  margin-left: 300px;
+  color: #5c5c5c;
+}
+box {
+  border-bottom: 1px, solid, azure;
+}
+.sunrise {
+  display: flex;
+  float: right;
+}
+.current {
+  font-size: 90px;
+  position: absolute;
+  top: 200px;
+  left: 350px;
+  color: aliceblue;
+  margin: 20px, 50px, 50px, 50px;
+}
+.prediction {
+  border-top: 1px solid azure;
+}
+
+h1,
+h2,
+p,
+li {
+  font-family: "ABeeZee", sans-serif;
+  color: azure;
+}
+
+li {
+  list-style: none;
+}
